@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CollegeRepoApp: App {
+struct LNMQuestApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
