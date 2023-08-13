@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3F4CEE2A8559A600BC0ED7 /* PaperListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F4CED2A8559A600BC0ED7 /* PaperListView.swift */; };
+		3A3F4CF02A8687AB00BC0ED7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F4CEF2A8687AB00BC0ED7 /* MainView.swift */; };
+		3A3F4CF32A86895500BC0ED7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3A3F4CF22A86895500BC0ED7 /* Lottie */; };
+		3A3F4CF72A8689D900BC0ED7 /* load.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3F4CF52A8689D900BC0ED7 /* load.json */; };
+		3A3F4CF82A8689D900BC0ED7 /* car.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3F4CF62A8689D900BC0ED7 /* car.json */; };
+		3A3F4CFA2A86A29500BC0ED7 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F4CF92A86A29500BC0ED7 /* CircleView.swift */; };
+		3A3F4CFC2A86A2B800BC0ED7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F4CFB2A86A2B800BC0ED7 /* CardView.swift */; };
+		3A3F4CFE2A86A2DD00BC0ED7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F4CFD2A86A2DD00BC0ED7 /* Card.swift */; };
+		3A3F4D002A86AF9100BC0ED7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F4CFF2A86AF9100BC0ED7 /* LoginView.swift */; };
+		3A3F4D022A86AFA100BC0ED7 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F4D012A86AFA100BC0ED7 /* CreateAccountView.swift */; };
+		3A3F4D042A86B0AD00BC0ED7 /* CollegePaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F4D032A86B0AD00BC0ED7 /* CollegePaperView.swift */; };
 		3AFB3FA52A829E8200522A1C /* CollegeRepoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FA42A829E8200522A1C /* CollegeRepoApp.swift */; };
 		3AFB3FA72A829E8200522A1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FA62A829E8200522A1C /* ContentView.swift */; };
 		3AFB3FA92A829E8500522A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FA82A829E8500522A1C /* Assets.xcassets */; };
@@ -14,6 +25,21 @@
 		3AFB3FB72A829E8500522A1C /* CollegeRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FB62A829E8500522A1C /* CollegeRepoTests.swift */; };
 		3AFB3FC12A829E8500522A1C /* CollegeRepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FC02A829E8500522A1C /* CollegeRepoUITests.swift */; };
 		3AFB3FC32A829E8500522A1C /* CollegeRepoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FC22A829E8500522A1C /* CollegeRepoUITestsLaunchTests.swift */; };
+		3AFB3FD32A829F2B00522A1C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FD22A829F2B00522A1C /* Data.swift */; };
+		3AFB3FD52A829F6B00522A1C /* BranchSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FD42A829F6B00522A1C /* BranchSelectionViewModel.swift */; };
+		3AFB3FD72A829F7B00522A1C /* SemesterSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FD62A829F7B00522A1C /* SemesterSelectionViewModel.swift */; };
+		3AFB3FD92A829F9E00522A1C /* SubjectSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FD82A829F9E00522A1C /* SubjectSelectionViewModel.swift */; };
+		3AFB3FDD2A82B14A00522A1C /* PaperListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FDC2A82B14A00522A1C /* PaperListViewModel.swift */; };
+		3AFB3FEC2A840FE800522A1C /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FE32A840FE800522A1C /* Montserrat-Thin.ttf */; };
+		3AFB3FED2A840FE800522A1C /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FE42A840FE800522A1C /* Montserrat-ThinItalic.ttf */; };
+		3AFB3FEE2A840FE800522A1C /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FE52A840FE800522A1C /* Montserrat-Bold.ttf */; };
+		3AFB3FEF2A840FE800522A1C /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FE62A840FE800522A1C /* Montserrat-MediumItalic.ttf */; };
+		3AFB3FF02A840FE800522A1C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FE72A840FE800522A1C /* Montserrat-Regular.ttf */; };
+		3AFB3FF12A840FE800522A1C /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FE82A840FE800522A1C /* Montserrat-Italic.ttf */; };
+		3AFB3FF22A840FE800522A1C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FE92A840FE800522A1C /* Montserrat-Medium.ttf */; };
+		3AFB3FF32A840FE800522A1C /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FEA2A840FE800522A1C /* Montserrat-SemiBoldItalic.ttf */; };
+		3AFB3FF42A840FE800522A1C /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB3FEB2A840FE800522A1C /* Montserrat-SemiBold.ttf */; };
+		3AFB3FF62A840FFE00522A1C /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3FF52A840FFE00522A1C /* FontManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A3F4CED2A8559A600BC0ED7 /* PaperListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperListView.swift; sourceTree = "<group>"; };
+		3A3F4CEF2A8687AB00BC0ED7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3A3F4CF52A8689D900BC0ED7 /* load.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = load.json; sourceTree = "<group>"; };
+		3A3F4CF62A8689D900BC0ED7 /* car.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car.json; sourceTree = "<group>"; };
+		3A3F4CF92A86A29500BC0ED7 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		3A3F4CFB2A86A2B800BC0ED7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3A3F4CFD2A86A2DD00BC0ED7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3A3F4CFF2A86AF9100BC0ED7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3A3F4D012A86AFA100BC0ED7 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		3A3F4D032A86B0AD00BC0ED7 /* CollegePaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegePaperView.swift; sourceTree = "<group>"; };
 		3AFB3FA12A829E8200522A1C /* CollegeRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFB3FA42A829E8200522A1C /* CollegeRepoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeRepoApp.swift; sourceTree = "<group>"; };
 		3AFB3FA62A829E8200522A1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +81,22 @@
 		3AFB3FBC2A829E8500522A1C /* CollegeRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFB3FC02A829E8500522A1C /* CollegeRepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeRepoUITests.swift; sourceTree = "<group>"; };
 		3AFB3FC22A829E8500522A1C /* CollegeRepoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeRepoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AFB3FD22A829F2B00522A1C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3AFB3FD42A829F6B00522A1C /* BranchSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchSelectionViewModel.swift; sourceTree = "<group>"; };
+		3AFB3FD62A829F7B00522A1C /* SemesterSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterSelectionViewModel.swift; sourceTree = "<group>"; };
+		3AFB3FD82A829F9E00522A1C /* SubjectSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectSelectionViewModel.swift; sourceTree = "<group>"; };
+		3AFB3FDC2A82B14A00522A1C /* PaperListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperListViewModel.swift; sourceTree = "<group>"; };
+		3AFB3FE32A840FE800522A1C /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		3AFB3FE42A840FE800522A1C /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3AFB3FE52A840FE800522A1C /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		3AFB3FE62A840FE800522A1C /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3AFB3FE72A840FE800522A1C /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		3AFB3FE82A840FE800522A1C /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		3AFB3FE92A840FE800522A1C /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		3AFB3FEA2A840FE800522A1C /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3AFB3FEB2A840FE800522A1C /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		3AFB3FF52A840FFE00522A1C /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		3AFB3FF72A84102000522A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3F4CF32A86895500BC0ED7 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A3F4CF42A86899F00BC0ED7 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				3A3F4CF62A8689D900BC0ED7 /* car.json */,
+				3A3F4CF52A8689D900BC0ED7 /* load.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		3AFB3F982A829E8200522A1C = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +157,12 @@
 		3AFB3FA32A829E8200522A1C /* CollegeRepo */ = {
 			isa = PBXGroup;
 			children = (
+				3A3F4CF42A86899F00BC0ED7 /* Lottie */,
+				3AFB3FF72A84102000522A1C /* Info.plist */,
+				3AFB3FD12A829EB300522A1C /* Resources */,
+				3AFB3FD02A829EAD00522A1C /* Views */,
+				3AFB3FCF2A829EA200522A1C /* Models */,
 				3AFB3FA42A829E8200522A1C /* CollegeRepoApp.swift */,
-				3AFB3FA62A829E8200522A1C /* ContentView.swift */,
-				3AFB3FA82A829E8500522A1C /* Assets.xcassets */,
 				3AFB3FAA2A829E8500522A1C /* CollegeRepo.entitlements */,
 				3AFB3FAB2A829E8500522A1C /* Preview Content */,
 			);
@@ -129,6 +194,60 @@
 			path = CollegeRepoUITests;
 			sourceTree = "<group>";
 		};
+		3AFB3FCF2A829EA200522A1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB3FD22A829F2B00522A1C /* Data.swift */,
+				3AFB3FD42A829F6B00522A1C /* BranchSelectionViewModel.swift */,
+				3AFB3FD62A829F7B00522A1C /* SemesterSelectionViewModel.swift */,
+				3AFB3FD82A829F9E00522A1C /* SubjectSelectionViewModel.swift */,
+				3AFB3FDC2A82B14A00522A1C /* PaperListViewModel.swift */,
+				3AFB3FF52A840FFE00522A1C /* FontManager.swift */,
+				3A3F4CFD2A86A2DD00BC0ED7 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AFB3FD02A829EAD00522A1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB3FA62A829E8200522A1C /* ContentView.swift */,
+				3A3F4CED2A8559A600BC0ED7 /* PaperListView.swift */,
+				3A3F4CEF2A8687AB00BC0ED7 /* MainView.swift */,
+				3A3F4CF92A86A29500BC0ED7 /* CircleView.swift */,
+				3A3F4CFB2A86A2B800BC0ED7 /* CardView.swift */,
+				3A3F4CFF2A86AF9100BC0ED7 /* LoginView.swift */,
+				3A3F4D012A86AFA100BC0ED7 /* CreateAccountView.swift */,
+				3A3F4D032A86B0AD00BC0ED7 /* CollegePaperView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AFB3FD12A829EB300522A1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB3FA82A829E8500522A1C /* Assets.xcassets */,
+				3AFB3FE22A840FC100522A1C /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3AFB3FE22A840FC100522A1C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB3FE52A840FE800522A1C /* Montserrat-Bold.ttf */,
+				3AFB3FE82A840FE800522A1C /* Montserrat-Italic.ttf */,
+				3AFB3FE92A840FE800522A1C /* Montserrat-Medium.ttf */,
+				3AFB3FE62A840FE800522A1C /* Montserrat-MediumItalic.ttf */,
+				3AFB3FE72A840FE800522A1C /* Montserrat-Regular.ttf */,
+				3AFB3FEB2A840FE800522A1C /* Montserrat-SemiBold.ttf */,
+				3AFB3FEA2A840FE800522A1C /* Montserrat-SemiBoldItalic.ttf */,
+				3AFB3FE32A840FE800522A1C /* Montserrat-Thin.ttf */,
+				3AFB3FE42A840FE800522A1C /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +264,9 @@
 			dependencies = (
 			);
 			name = CollegeRepo;
+			packageProductDependencies = (
+				3A3F4CF22A86895500BC0ED7 /* Lottie */,
+			);
 			productName = CollegeRepo;
 			productReference = 3AFB3FA12A829E8200522A1C /* CollegeRepo.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +339,9 @@
 				Base,
 			);
 			mainGroup = 3AFB3F982A829E8200522A1C;
+			packageReferences = (
+				3A3F4CF12A86895500BC0ED7 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 3AFB3FA22A829E8200522A1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +358,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3F4CF82A8689D900BC0ED7 /* car.json in Resources */,
+				3AFB3FEE2A840FE800522A1C /* Montserrat-Bold.ttf in Resources */,
+				3A3F4CF72A8689D900BC0ED7 /* load.json in Resources */,
+				3AFB3FF42A840FE800522A1C /* Montserrat-SemiBold.ttf in Resources */,
 				3AFB3FAD2A829E8500522A1C /* Preview Assets.xcassets in Resources */,
+				3AFB3FF02A840FE800522A1C /* Montserrat-Regular.ttf in Resources */,
+				3AFB3FF12A840FE800522A1C /* Montserrat-Italic.ttf in Resources */,
+				3AFB3FEC2A840FE800522A1C /* Montserrat-Thin.ttf in Resources */,
+				3AFB3FED2A840FE800522A1C /* Montserrat-ThinItalic.ttf in Resources */,
+				3AFB3FEF2A840FE800522A1C /* Montserrat-MediumItalic.ttf in Resources */,
+				3AFB3FF22A840FE800522A1C /* Montserrat-Medium.ttf in Resources */,
+				3AFB3FF32A840FE800522A1C /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				3AFB3FA92A829E8500522A1C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +396,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFB3FA72A829E8200522A1C /* ContentView.swift in Sources */,
+				3AFB3FD72A829F7B00522A1C /* SemesterSelectionViewModel.swift in Sources */,
+				3AFB3FD92A829F9E00522A1C /* SubjectSelectionViewModel.swift in Sources */,
+				3A3F4CF02A8687AB00BC0ED7 /* MainView.swift in Sources */,
+				3A3F4CFE2A86A2DD00BC0ED7 /* Card.swift in Sources */,
+				3AFB3FDD2A82B14A00522A1C /* PaperListViewModel.swift in Sources */,
+				3AFB3FD52A829F6B00522A1C /* BranchSelectionViewModel.swift in Sources */,
+				3A3F4CFA2A86A29500BC0ED7 /* CircleView.swift in Sources */,
+				3A3F4D002A86AF9100BC0ED7 /* LoginView.swift in Sources */,
+				3A3F4D022A86AFA100BC0ED7 /* CreateAccountView.swift in Sources */,
+				3A3F4CEE2A8559A600BC0ED7 /* PaperListView.swift in Sources */,
+				3AFB3FD32A829F2B00522A1C /* Data.swift in Sources */,
+				3AFB3FF62A840FFE00522A1C /* FontManager.swift in Sources */,
+				3A3F4CFC2A86A2B800BC0ED7 /* CardView.swift in Sources */,
 				3AFB3FA52A829E8200522A1C /* CollegeRepoApp.swift in Sources */,
+				3A3F4D042A86B0AD00BC0ED7 /* CollegePaperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +574,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollegeRepo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -434,7 +585,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -462,6 +613,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollegeRepo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -472,7 +624,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -617,6 +769,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A3F4CF12A86895500BC0ED7 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A3F4CF22A86895500BC0ED7 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A3F4CF12A86895500BC0ED7 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AFB3F992A829E8200522A1C /* Project object */;
 }
